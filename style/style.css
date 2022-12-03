@@ -41,7 +41,7 @@ p[title='row_one_p'] {
 
 .row__two {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .main__row__two_left {
@@ -50,8 +50,8 @@ p[title='row_one_p'] {
 }
 
 .main__row__two_right {
-  display:flex;
-  justify-content:flex-end;
+  /* display:flex;
+  justify-content:flex-end; */
 
   flex-basis: 50%;
   padding-left: 140px;
