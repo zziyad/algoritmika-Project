@@ -17,13 +17,28 @@ body {
 }
 
 
+.row__one {
+  margin-top: 100px;
+}
+
+p[title='row_one_p'] {
+  display: inline;
+  
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+
+
 /*
   MAIN - ROW 2
 */
 .row__two {
   display: flex;
   justify-content: space-between;
-  padding-top: 129px;
+  /* padding-top: 129px; */
 }
 
 .main__row__two_left {
@@ -35,6 +50,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 141.9px 0 0;
+
 }
 
 img[title='producer'] {
@@ -63,12 +80,21 @@ p[title='two__left_p'] {
     max-width: 992px;
     /* padding: 0px 30px 0 30px; */
   }
-
-  .row__two {
-    display: flex;
-    justify-content: space-around;
+  .row__one {
+    margin-top: 44.6px;
   }
 
+  p[title='row_one_p'] {
+    font-size: 12px;
+  }
+  .main__row__two_left {
+    flex-basis: 36%;
+  } 
+  
+  .main__row__two_right {
+    margin: 0 241.9px 0 0;
+  } 
+  
   p[title='two__left_p'] {
     font-size: 12px;
   }
@@ -77,32 +103,28 @@ p[title='two__left_p'] {
     font-size: 46px;
   }
 
-  .main__row__two_left {
-    flex-basis: 36%;
-  } 
   
-  img[title='producer'] {
-    width: 100%;
-    height: auto;
-  }
-  /* .main__row__two_left {
-    flex-basis: 70%;
-  } */
+
 }
 
 
-@media screen and (max-width: 791px) {
+@media screen and (max-width: 991px) {
   .wrapper {
     max-width: 320px;
-    /* padding: 0px 30px 0 30px; */
   }
 
+  p[title='row_one_p'] {
+    font-size: 10px;
+  }
 
   .row__two {
     display: flex;
     flex-direction: column;
   }
 
+  .main__row__two_right {
+    margin: 0px;
+  }
 
   p[title='two__left_p'] {
     font-size: 10px;
@@ -112,75 +134,13 @@ p[title='two__left_p'] {
     font-size: 37px;
   }
 
-
   .main__row__two_right {
     justify-content: flex-end;
   }
 
-
    img[title='producer'] {
     width: 60%;
     padding-top: 1%;
-    /* height: auto; */
   } 
 }
 
-
-/*
-.wrap {
-  display: flex;
-}
-
-.left {
-  flex-basis: 50%;
-  margin-right: 15px;
-}
-
-.right {
-  flex-basis: 50%;
-  margin-left: 15px;
-}
-
-.card {
-  display: flex;
-  align-items: flex-start;
-  padding: 40px;
-  background-color: gray;
-  color: blue;
-}
-
-.title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
-.desc {
-  margin: 0px;
-}
-
-.left__card {
-  min-height: 100%;
-}
-
-.right__card_top {
-  margin-bottom: 30px;
-}
-
-
-
-img[title='logo'] {
-  width: 100%;
-  min-width: 22.4px;
-  max-width: 112px;
-  margin-left: 120px;
-}
-
-
-
-
-@media (min-width: 992px) {
-  .wrap {
-     flex-direction: column; 
-  }
-}
-*/
