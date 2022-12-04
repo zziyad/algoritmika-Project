@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  font-style: normal;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0 30px 0 30px;
+
+}
+
+
+@media (max-width:1200px) {
+  .wrapper {
+    max-width: 970px;
+  }
+}
+
+@media (max-width:992px) {
+  .wrapper {
+    max-width: 7500px;
+  }
+}
+
+@media (max-width:767px) {
+  .wrapper {
+    max-width: none;
+  }
+}
+
+
+#fb-50 {
+  flex: 1 0 50%;
+}
+
+.fend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*
+  * MAIN 
+*/
+/* ROW ONE */
+.row__one {
+  margin-top: 100px;
+}
+
+p[title='row_one_p'] {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 10px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+
+/* ROW TWO */
+
+.row__two {
+  display: flex;
+  /* justify-content:space-between; */
+}
+
+.main__row__two_left {
+  padding-top: 29px;
+}
+
+.main__row__two_right {
+  /* padding: 4px 142.48px 0 0; */
+  /* max-width: 356px; */
+  /* margin: 0px auto; */
+  padding: 4px 0 0 0;
+
+}
+
+.producer__img {
+  width: 100%;
+  padding-top: 42%;
+  /* height: auto; */
+  background-size: cover;
+}
+/* .producer__img {
+  width: 100%;
+  background: url(/project/img/Group\ 23.png) no-repeat center;
+  background-size: contain;
+
+} */
+
+
+h1[title='two__left_h1'] {
+  display: flex;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+p[title='two__left_p'] {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+/* ROW THREE */
+
+.row__three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 87.62px;
+}
+
+/* ROW FOUR */
+
+.row__four {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100.41px;
+}
+
+.row__four_title {
+
+  margin: 104.62px 0 37.35px 0;
+}
+
+h1[title='four__left_h1'] {
+  padding: 0;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+}
+
+
+p[title='four__left_p'] {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.row__four_paragraph {
+  padding: 0 10px 0 0;
+}
+
+.main__row__four_right {
+  margin: 74.19px 88.61px 0 0;
+
+}
+
+
+
+img[title='camera'] {
+  position: absolute;
+
+}
+
+

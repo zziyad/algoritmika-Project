@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.wrapper {
+  margin: 0px auto;
+  max-width: 1280px;
+  padding: 0px 30px 0 30px;
+}
+
+
+/*
+  MAIN - ROW 2
+*/
+.row__two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 129px;
+}
+
+.main__row__two_left {
+  flex-basis: 60%;
+}
+
+.main__row__two_right {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img[title='producer'] {
+  width: 100%;
+  padding-top: 42%;
+  /* height: auto; */
+}
+
+h1[title='two__left_h1'] {
+  /* display: flex; */
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+p[title='two__left_p'] {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    max-width: 700px;
+    /* padding: 0px 30px 0 30px; */
+  }
+
+  p[title='two__left_p'] {
+    font-size: 12px;
+  }
+
+  h1[title='two__left_h1'] {
+    font-size: 46px;
+  }
+
+  .main__row__two_right {
+    flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    max-width: 320px;
+    /* padding: 0px 30px 0 30px; */
+  }
+
+
+  .row__two {
+    display: flex;
+    flex-direction:column;
+  }
+
+
+  p[title='two__left_p'] {
+    font-size: 10px;
+  }
+
+  h1[title='two__left_h1'] {
+    font-size: 37px;
+  }
+
+
+  .main__row__two_right {
+    justify-content:flex-end;
+  }
+
+
+  img[title='producer'] {
+    width: 60%;
+    padding-top: 1%;
+    /* height: auto; */
+  }
+}
+
+
+/*
+.wrap {
+  display: flex;
+}
+
+.left {
+  flex-basis: 50%;
+  margin-right: 15px;
+}
+
+.right {
+  flex-basis: 50%;
+  margin-left: 15px;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: gray;
+  color: blue;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.desc {
+  margin: 0px;
+}
+
+.left__card {
+  min-height: 100%;
+}
+
+.right__card_top {
+  margin-bottom: 30px;
+}
+
+
+
+img[title='logo'] {
+  width: 100%;
+  min-width: 22.4px;
+  max-width: 112px;
+  margin-left: 120px;
+}
+
+
+
+
+@media (min-width: 992px) {
+  .wrap {
+     flex-direction: column; 
+  }
+}
+*/
