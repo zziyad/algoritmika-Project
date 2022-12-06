@@ -201,7 +201,7 @@ body {
 }
 
 .course_cards {
-  margin: 0 25px 45px 0;
+  margin: 0px 12px 45px 15px;
   max-width: 399px;
   height: auto;
   border-radius: 10%;
@@ -632,6 +632,10 @@ body {
     margin: 36.3px 0 0 40px;
   }
 
+  .course_cards {
+    margin: 0px 12px 45px 0px;
+  }
+  
   .additional__info {
     display: flex;
   }
