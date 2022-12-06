@@ -9,6 +9,7 @@
 .main__wrap, {
   width: 100%;
   height: auto;
+
 }
 
 body {
@@ -429,8 +430,11 @@ footer {
     margin: 34px 168px 111px 126px;
   }
 
+  .cards__wrap {
+    padding-left: 20px;
+  }
   .course_cards {
-    max-width: 299px;
+    max-width: 269px;
     height: auto;
   }
 
