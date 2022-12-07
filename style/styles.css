@@ -115,6 +115,9 @@ body {
   line-height: 115%;
 }
 
+.distance {
+  margin-right: 20px;
+}
 
 
 /*
@@ -208,6 +211,9 @@ body {
   box-shadow: 0 0 10px 0 gray
 }
 
+.list_padding {
+  padding: 0 0 0 20px;
+}
 /*
   * MAIN - section 8
 */
@@ -340,6 +346,7 @@ body {
 }
 .footer__logo {
   margin-bottom: 29px;
+  padding-top: 30px;
 }
 
 .socials {
@@ -450,6 +457,10 @@ body {
     max-width: 320px;
     padding: 0px;
 
+  }
+
+  .distance {
+    margin-right: 10px;
   }
 
   .text__small {
@@ -635,7 +646,7 @@ body {
   .course_cards {
     margin: 0px 12px 45px 0px;
   }
-  
+
   .additional__info {
     display: flex;
   }
@@ -660,6 +671,7 @@ body {
 
   .footer__logo {
     margin: 0 0 13.98px 0;
+    padding-top: 30px;
   }
 
   .socials {
