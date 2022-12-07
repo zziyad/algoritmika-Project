@@ -148,9 +148,23 @@ body {
   margin-top: 87.62px;
 }
 
-.section__three img {
-  width: 50%;
+.citation {
+  background-color: #1E4681;
+  width: 40%;
+  height: auto;
+} 
+
+.citation_text {
+  padding: 10px 15px 0 15px ; 
+  font-family: 'Roboto Slab';
+  color: white;
 }
+
+.citation_autor {
+  padding: 0 0 0 200px;
+  color: white;
+}
+
 
 /*
   * MAIN - section 4
@@ -520,14 +534,23 @@ body {
 
   /* SECTION 3*/
 
-  .section__three {
+  /* .section__three {
     margin-top: 37.62px;
   }
 
   .section__three img {
     width: 100%;
-  }
+  } */
 
+  .citation {
+    /* background-color: #1E4681; */
+    width: 100%;
+    /* height: auto; */
+  } 
+
+  .citation_autor {
+      padding: 0 0 0 150px;
+  }
   /* SECTION 4*/
 
 
