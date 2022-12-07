@@ -270,7 +270,7 @@ body {
 }
 
 .name__social {
-  margin: 50px 0 68px 30px;
+  margin: 0px 0 68px 30px;
 }
 
 /*
@@ -533,7 +533,10 @@ body {
   }
 
   /* SECTION 3*/
-
+  .citation_autor {
+    padding: 0 0 0 10px;
+    color: white;
+  }
  
 
   .citation {
