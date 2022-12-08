@@ -37,7 +37,7 @@ body {
 
 .one__line {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .row {
@@ -161,7 +161,7 @@ body {
 }
 
 .citation_autor {
-  padding: 0 0 0 288px;
+  padding: 0 0 0 220px;
   color: white;
 }
 
@@ -208,7 +208,9 @@ body {
 /*
   * MAIN - section 6
 */
-
+.section__six_title {
+  margin-top: 100px;
+}
 /*
   * MAIN - section 7
 */
@@ -232,7 +234,7 @@ body {
   * MAIN - section 8
 */
 .row__rules {
-  padding: 0 0 0 19px;
+  padding: 0 0 0 50px;
   margin: 0 0 32px 0;
 }
 
@@ -255,6 +257,7 @@ body {
   margin: 34px 423px 111px 126px;
   border-radius: 30px;
   background-color: white;
+  box-shadow: 0 0 10px 0 gray
 }
 
 .card__text {
@@ -367,14 +370,12 @@ body {
   margin-bottom: 147px;
 }
 
-.fa-duotone,
-.text_info {
-  display: inline-block;
-}
+
 
 .fa-duotone,
-.text_info {
+.info {
   display: inline-block;
+  padding-left: 10px;
 
 }
 
@@ -449,6 +450,7 @@ body {
 
   .user__card {
     margin: 34px 168px 111px 126px;
+
   }
 
   .cards__wrap {
